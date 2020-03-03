@@ -12,7 +12,7 @@ import com.sales.models.*;
 public interface CustomerDAO extends JpaRepository<Customer, Long> {
 
 	public Customer findBycName(String name);
-	public Customer findByCId (long cId);
+	public Customer findByCid (long cid);
 	
 	
 }

@@ -7,5 +7,5 @@ import com.sales.models.*;
 @Repository
 public interface ProductDAO extends JpaRepository<Product, Long> {
 
-	public Product findByPId (long pId);
+	public Product findByPid (long pId);
 }

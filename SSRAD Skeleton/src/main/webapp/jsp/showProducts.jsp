@@ -41,7 +41,7 @@
 	<c:forEach var="product" items="${allProducts}">
 		<tr>
 			<td>
-				<c:out value="${product.pId}"/>
+				<c:out value="${product.pid}"/>
 			</td>
 			<td>
 				<c:out value="${product.pDesc}"/>

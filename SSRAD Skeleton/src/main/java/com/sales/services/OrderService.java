@@ -49,8 +49,8 @@ public class OrderService {
 		long checkPid = Long.parseLong(neworder.getpId());
 		int checkQty = neworder.getQty();
 		
-		Customer checkCustomer = customerDAO.findByCId(checkCid);
-		Product checkProduct = productDAO.findByPId(checkPid);
+		Customer checkCustomer = customerDAO.findByCid(checkCid);
+		Product checkProduct = productDAO.findByPid(checkPid);
 		//Check does cId exist in DB
 		if(checkCustomer == null || checkProduct == null){
 			//Check does pId exist in DB

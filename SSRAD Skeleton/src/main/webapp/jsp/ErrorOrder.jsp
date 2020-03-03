@@ -22,10 +22,10 @@
 			</tr>
 				<tr>
 					<td>
-						<label>${Order.cId}</label>
+						<label>${Order.cid}</label>
 					</td>
 					<td>
-						<label>${Order.pId}</label>
+						<label>${Order.pid}</label>
 					</td>
 					<td>
 						<label>${Order.qty}</label>

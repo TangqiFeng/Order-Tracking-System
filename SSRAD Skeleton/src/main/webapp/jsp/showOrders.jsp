@@ -33,7 +33,7 @@
 <c:forEach var="order" items="${allOrders}">
 	
 	<h2>
-		Order Id: <c:out value="${order.oId}"/>
+		Order Id: <c:out value="${order.oid}"/>
 	</h2>
 	<table>
 		<tr>
@@ -52,13 +52,13 @@
 					<c:out value="${order.orderDate}"/>
 				</td>
 				<td>
-					<c:out value="${order.cust.cId}"/>
+					<c:out value="${order.cust.cid}"/>
 				</td>
 				<td>
 					<c:out value="${order.cust.cName}"/>
 				</td>
 				<td>
-					<c:out value="${order.prod.pId}"/>
+					<c:out value="${order.prod.pid}"/>
 				</td>
 				<td>
 					<c:out value="${order.prod.pDesc}"/>

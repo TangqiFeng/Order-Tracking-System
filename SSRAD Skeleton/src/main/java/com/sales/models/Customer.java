@@ -18,7 +18,7 @@ public class Customer {
 	@Id
 	@GeneratedValue
 	@Column(name="CID")
-	private Long cId;
+	private Long cid;
 
 	@Column(name="CNAME")
 	@NotBlank
@@ -27,12 +27,12 @@ public class Customer {
 	@OneToMany(mappedBy="cust")
 	private List<Order> orders = new ArrayList<Order>();
 
-	public Long getcId() {
-		return cId;
+	public Long getCid() {
+		return cid;
 	}
 
-	public void setcId(Long cId) {
-		this.cId = cId;
+	public void setId(Long cId) {
+		this.cid = cId;
 	}
 
 	public String getcName() {

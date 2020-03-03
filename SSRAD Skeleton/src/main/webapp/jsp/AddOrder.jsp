@@ -16,11 +16,11 @@
 	<table>
 		<tr>
       		<td>Customer ID:</td>
-      		<td><form:input name="cId" path="cId"></form:input></td>
+      		<td><form:input name="cid" path="cid"></form:input></td>
     	</tr>
     	<tr>
       		<td>Product ID:</td>
-      		<td><form:input path="pId"></form:input></td>
+      		<td><form:input path="pid"></form:input></td>
     	</tr>
     	<tr>
       		<td>Quantity:</td>

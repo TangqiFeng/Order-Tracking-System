@@ -19,7 +19,7 @@ public class Product {
 	@Id
 	@GeneratedValue
 	@Column(name="PID")
-	private Long pId;
+	private Long pid;
 	
 	@Column(name="PDESC")
 	@NotBlank
@@ -32,12 +32,12 @@ public class Product {
 	@OneToMany(mappedBy="prod")
 	private List<Order> ordersForProduct = new ArrayList<Order>();
 
-	public Long getpId() {
-		return pId;
+	public Long getPid() {
+		return pid;
 	}
 
-	public void setpId(Long pId) {
-		this.pId = pId;
+	public void setPid(Long pid) {
+		this.pid = pid;
 	}
 
 	public String getpDesc() {

@@ -19,7 +19,7 @@ public class Order {
 	@Id
 	@GeneratedValue
 	@Column(name="OID")
-	private Long oId;
+	private Long oid;
 	
 	@Min(1)
 	@Column(name="QTY")
@@ -36,12 +36,12 @@ public class Order {
 	@JoinColumn(name="pId")
 	private Product prod;
 
-	public Long getoId() {
-		return oId;
+	public Long getOid() {
+		return oid;
 	}
 
-	public void setoId(Long oId) {
-		this.oId = oId;
+	public void setOid(Long oid) {
+		this.oid = oid;
 	}
 
 	public int getQty() {
