@@ -31,7 +31,7 @@ public class Customer {
 		return cid;
 	}
 
-	public void setId(Long cId) {
+	public void setCid(Long cId) {
 		this.cid = cId;
 	}
 

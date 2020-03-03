@@ -45,8 +45,8 @@ public class OrderService {
 		//subtract order.qty from product.qty
 		//if less than 0 - error
 
-		long checkCid = Long.parseLong(neworder.getcId());
-		long checkPid = Long.parseLong(neworder.getpId());
+		long checkCid = Long.parseLong(neworder.getCid());
+		long checkPid = Long.parseLong(neworder.getPid());
 		int checkQty = neworder.getQty();
 		
 		Customer checkCustomer = customerDAO.findByCid(checkCid);

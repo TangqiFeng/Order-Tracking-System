@@ -29,11 +29,11 @@ public class Order {
 	private String orderDate;
 
 	@ManyToOne
-	@JoinColumn(name="cId")
+	@JoinColumn(name="CID")
 	private Customer cust;
 		
 	@ManyToOne
-	@JoinColumn(name="pId")
+	@JoinColumn(name="PID")
 	private Product prod;
 
 	public Long getOid() {
